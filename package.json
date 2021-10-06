@@ -9,7 +9,8 @@
     "lint": "next lint",
     "test": "jest --watch",
     "trace": "playwright show-trace test-results \\tests-foo-basic-test\\trace.zip",
-    "e2e": "playwright test"
+    "e2e": "playwright test",
+    "cypress:headless": "cypress run --browser chrome"
   },
   "dependencies": {
     "lodash": "4.17.21",
@@ -25,6 +26,7 @@
     "@emotion/react": "11.4.1",
     "@emotion/styled": "11.3.0",
     "@playwright/test": "1.14.1",
+    "@testing-library/cypress": "8.0.1",
     "@testing-library/jest-dom": "5.14.1",
     "@testing-library/react": "12.1.0",
     "@testing-library/user-event": "13.2.1",
@@ -35,6 +37,7 @@
     "@typescript-eslint/eslint-plugin": "4.31.0",
     "@typescript-eslint/parser": "4.31.0",
     "babel-jest": "27.2.0",
+    "cypress": "8.5.0",
     "eslint": "7.32.0",
     "eslint-config-next": "11.1.2",
     "eslint-config-prettier": "8.3.0",
