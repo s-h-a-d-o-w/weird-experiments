@@ -2,6 +2,9 @@
 /public/sw*
 /public/workbox*
 
+# testcafe
+/testcafe-results
+
 # playwright
 /test-results
 
