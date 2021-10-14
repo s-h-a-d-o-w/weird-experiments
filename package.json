@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "test": "jest --watch",
-    "trace": "playwright show-trace test-results \\tests-foo-basic-test\\trace.zip",
+    "trace": "playwright show-trace test-results\\e2e-foo-basic-test\\trace.zip",
     "e2e": "playwright test"
   },
   "dependencies": {
